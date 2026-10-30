@@ -1,106 +1,34 @@
-# Data Centric Programming Assignment 2025
-
-- [Assignment Brief](assignment.md)
+# Data Centric Programming Assignment 2026
 
 Name: Daniel O'Sullivan
 
 Student Number: A00034166
 
-# Screenshots
+# Assignment Proposal
+My assignment will be collcting data on playing guitar and bass. I will record the date, time of day, minutes played, if I learned a new song or made one of my own, how many songs were played.
 
-# Description of the project
 
-# Instructions for use
+# Questions
+1. Which days do i get the most steps in on
+2. How much does the active time differ between days
+3. How does my most active hour change each day 
+# Data Dictionary
 
-# How it works:
+| Column Name | Data Type | Units | How It Is Measured |
+|---|---|---|---|
+| Date | Date | DD-MM-YYYY | The date on which the activity data was recorded. |
 
-# List of files in the project
+| Steps | Integer | Steps | The total number of steps recorded by the activity tracker during the day. |
 
-| Files | Source |
-|-----------|-----------|
-| main.py | Self written |
-| test.py | Modified from [reference]() |
-| test.py | From [reference]() |
+| Active Time | Integer | Minutes | The total time spent performing physical activity, recorded by the activity tracker. |
 
-# References
-* Item 1
-* Item 2
+| Activity Calories | Integer | Kilocalories (kcal) | The estimated calories burned through physical activity during the day, as reported by the tracker. |
 
-# What I am most proud of in the assignment
+| Total Calories | Integer | Kilocalories (kcal) | The estimated total calories burned during the day, including activity and resting energy, as reported by the tracker. |
 
-Bla bla bla
+| Distance while active | Float | Kilometres (km) | The total distance travelled during recorded activity, as reported by the tracker. |
 
-# What I learned
+| Most Active Hour | Integer | Hour (0–23) | The hour of the day with the highest recorded activity, using the 24-hour clock. |
 
-Bla bla bla
+| Day Type | String (Categorical) | None | Classifies the day as a weekday or weekend based on the date. |
 
-## Below is how to use Markdown. You can delete this:
-
-## This is how to markdown text:
-
-This is *emphasis*
-
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-1. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-# Headings
-## Headings
-#### Headings
-##### Headings
-
-This is code:
-
-```Java
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-So is this without specifying the language:
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-This is an image using a relative URL:
-
-![An image](images/p8.png)
-
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
-
-This is a youtube video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
-
-This is a table:
-
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-
-|Some stuff | Some more stuff in this column |
