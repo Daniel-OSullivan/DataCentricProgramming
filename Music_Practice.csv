@@ -1,0 +1,5 @@
+date,time_of_day,day_type,instrument,minutes_played,new_song_or_original,songs_played,practice_or_riffing,productivity,enjoyment
+2026-10-31,evening,work,guitar,35,new song,3,practice,4,3
+2026-11-01,afternoon,work,bass,20,neither,2,riffing,2,4
+2026-11-02,evening,college,guitar,50,original,4,riffing,5,5
+2026-11-03,evening,college,bass,40,new song,3,practice,4,4
