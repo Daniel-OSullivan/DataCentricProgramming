@@ -6,3 +6,4 @@ date,time_of_day,day_type,instrument,minutes_played,new_song_or_original,songs_p
 2026-11-04,evening,college,guitar,75,new song,8,practice,4,5
 2026-11-05,evening,college,guitar,20,neither,2,riffing,2,3
 2026-11-06,afternoon,college+work,guitar,40,neither,4,riffing,3,4
+2026-11-08,morning,rest,guitar,30,new song,2,riffing,2,3
